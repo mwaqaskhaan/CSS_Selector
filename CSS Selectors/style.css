@@ -1,0 +1,40 @@
+/* Universal Selector */
+*{
+    color: red;
+} */
+
+/* Type Selector */
+
+/* Single */
+span{
+    color: red;
+}
+
+/* /* Multiple */
+h1,span{
+    color: red;
+} 
+/* Class Selector */
+.interest{
+    color: red;
+}
+/* ID Selector */
+#Waqas{
+    color: red;
+}
+/* Child Selector */
+body>div{
+    color: red;
+}
+/* Descendent Selector */
+div h3{
+    color: red;
+}
+/* Adjacent Sibling Selector */
+div+p{
+    color: red;
+}
+/* General Sibling Selector */
+h1~p{
+    color: red;
+}
